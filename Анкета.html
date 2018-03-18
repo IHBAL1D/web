@@ -1,0 +1,33 @@
+﻿<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Анкета</h1>
+Заповни анкету для вступлення в клуб <i>"Віртуальна бібліотека"</i>
+<form method="get">
+	Введіть імя:<br>
+	<input type="text" name="name"><br>
+	Введіть пароль: <input type="password" name="pass"><br>
+	Стать: <input type="radio" name="man">Чоловік<input type="radio" name="man">Жінка<br>
+	Рід зайнятості:
+	<input type="checkbox" name="student" checked>Студент<br>
+	<input type="checkbox" name="scholboy">Школяр<br>
+	<input type="checkbox" name="aspirant">Аспірант<br>
+	<input type="checkbox" name="work">Працюю<input type="checkbox" name="nework">Не працюю<br>
+	Які книги любиш читати:<br>
+	<select name="book" multiple=2 size=3>
+		<option value="1">научно-пізнавальні
+		<option value="2">фантастика
+		<option value="3">фентезі
+		<option value="4">пригоди
+		<option value="5" selected>історичні
+	</select><br>
+	Що читаєш зараз?<br>
+	Поділись враженнями про прочитане:<br>
+	<textarea rows=5 cols=40 value="text" alt="Сміливіше!" placeholder="Починай тут"/></textarea><br>
+	Додаткова ынформація на сайті: <a href="#">lol.kek</a><br>
+	<input type="button" name="cancel" value="Відміна"><input type="submit" name="ok" value="Готово"><br>
+</form>
+</body>
+</html>
